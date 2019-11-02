@@ -10,6 +10,9 @@
       "web"
     ],
     "version": "1.0.0",
+    "android": {
+      "package": "com.ligma.ye"
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -24,7 +27,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ligma.ye"
+    },
   }
 }
